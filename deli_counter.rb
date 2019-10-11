@@ -2,12 +2,12 @@ katz_deli = ["Larry", "Curly", "Moe"]
 
 
 def line(array)
-  if array.empty? 
+  if array.empty?
     puts "The line is currently empty."
   end
 
   else
-    
+
       next_line = []
       counter = 1
       array.each do |name|
@@ -16,7 +16,7 @@ def line(array)
       end
       puts "The line is currently: #{next_line.join(" ")}"
 
-    
+
 
 end
 
