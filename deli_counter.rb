@@ -1,6 +1,5 @@
 katz_deli = ["Larry", "Curly", "Moe"]
 
-
 def line(array)
   if array.length >= 1
     next_line = []
@@ -23,7 +22,7 @@ def take_a_number(line, new_person)
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
-take_a_number(katz_deli, "Barney")
+#take_a_number(katz_deli, "Barney")
 
 def now_serving(line)
   if line.empty?
