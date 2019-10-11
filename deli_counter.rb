@@ -22,8 +22,6 @@ def take_a_number(line, new_person)
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
-#take_a_number(katz_deli, "Barney")
-
 def now_serving(line)
   if line.empty?
     puts"There is nobody waiting to be served!"
